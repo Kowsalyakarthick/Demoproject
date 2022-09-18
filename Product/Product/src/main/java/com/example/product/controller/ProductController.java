@@ -29,7 +29,7 @@ public class ProductController {
 	 
 	@GetMapping("/getProducts")
 	public List<Product> getProduct(){
-		System.out.println("karthick");
+		
 		return service.getProducts();
 	}
 	@GetMapping("/getId/{id}")
